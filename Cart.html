@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Imtiaz Online Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">View Cart</a></li>
+                <li><a href="#">Login/Signup</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart">
+        <h2>Your Cart</h2>
+        <div id="cart-items" class="cart-container"></div>
+        <div class="cart-total">
+            <p id="total-price">Total: $0.00</p>
+            <button onclick="buyNow()">Buy Now</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
